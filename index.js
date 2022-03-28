@@ -1,5 +1,6 @@
-import _ from 'lodash';
+const loginOfMail = (str) => {
+  const addedCom = `${str} + '.com'`;
+  return addedCom;
+};
 
-console.log(_.last(['one', 'two']));
-
-console.log('Hello Hexlet!');
+console.log(loginOfMail('nexus'));
